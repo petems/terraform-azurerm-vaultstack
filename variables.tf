@@ -101,12 +101,12 @@ variable "vault_servers" {
 
 variable "consul_url" {
   description = "The url to download Consul."
-  default     = "https://releases.hashicorp.com/consul/1.2.2/consul_1.2.2_linux_amd64.zip"
+  default     = "https://releases.hashicorp.com/consul/1.2.2/consul_1.4.2_linux_amd64.zip"
 }
 
 variable "vault_url" {
   description = "The url to download vault."
-  default     = "https://releases.hashicorp.com/vault/1.0.1/vault_1.0.1_linux_amd64.zip"
+  default     = "https://releases.hashicorp.com/vault/1.0.1/vault_1.0.2_linux_amd64.zip"
 }
 
 variable "owner" {
